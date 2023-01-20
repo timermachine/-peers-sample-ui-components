@@ -1,8 +1,11 @@
 {
+  "name": "@peers/uicomponents",
+  "module": "dist/uicomponents.esm.js",
   "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "author": "Henry Guy Kemp",
   "files": [
     "dist",
     "src"
@@ -37,9 +40,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "uicomponents",
-  "author": "Henry Guy Kemp",
-  "module": "dist/uicomponents.esm.js",
   "size-limit": [
     {
       "path": "dist/uicomponents.cjs.production.min.js",
@@ -69,6 +69,7 @@
     "tsdx": "^0.14.1",
     "tslib": "^2.4.1",
     "typescript": "^4.9.4",
-    "concurrently": "^7.6.0"
+    "concurrently": "^7.6.0",
+    "@storybook/addon-a11y": "^6.5.15"
   }
 }

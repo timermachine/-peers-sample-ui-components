@@ -1,15 +1,13 @@
 import React, { HTMLAttributes, ReactNode } from 'react';
 
 export interface Props extends HTMLAttributes<HTMLButtonElement> {
+  /** provide text or any innerHtml to button */
   children: ReactNode;
-  variant: 'primary' | 'secondary' | 'teritiary';
+  /** styling variants */
+  variant: 'primary' | 'secondary';
 }
-
-export const Button = ({
-  children = 'Button',
-  variant = 'primary',
-  ...props
-}: Props) => {
+/** Button example */
+export const Button = ({ children, variant, ...props }: Props) => {
   return (
     <button
       {...props}
