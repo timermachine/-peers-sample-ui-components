@@ -1,5 +1,5 @@
 {
-  "name": "@peers/uicomponents",
+  "name": "@acme-corp/uicomponents",
   "module": "dist/uicomponents.esm.js",
   "version": "0.1.0",
   "license": "MIT",
