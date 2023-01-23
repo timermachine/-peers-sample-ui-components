@@ -1,5 +1,5 @@
 {
-  "name": "@acme-corp/uicomponents",
+  "name": "uicomponents",
   "module": "dist/uicomponents.esm.js",
   "version": "0.1.0",
   "license": "MIT",
@@ -70,6 +70,10 @@
     "tslib": "^2.4.1",
     "typescript": "^4.9.4",
     "concurrently": "^7.6.0",
-    "@storybook/addon-a11y": "^6.5.15"
+    "@storybook/addon-a11y": "^6.5.15",
+    "@vanilla-extract/babel-plugin": "^1.2.0",
+    "@vanilla-extract/css": "^1.9.2",
+    "@vanilla-extract/webpack-plugin": "^2.2.0",
+    "@vanilla-extract/rollup-plugin": "^1.2.0"
   }
 }
