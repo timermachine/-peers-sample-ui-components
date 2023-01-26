@@ -1,0 +1,1 @@
+date is /bin/date
